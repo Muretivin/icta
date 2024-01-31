@@ -1,0 +1,143 @@
+.input-container {
+  margin-bottom: 20px;
+  border-radius: 40px 40px 40px 40px;
+}
+.input-container > select {
+  border-radius: 40px 40px 40px 40px;
+  border: 2px solid red;
+  padding: 10px;
+  width: 420px;
+  background-color: ghostwhite;
+}
+
+.body {
+  background-color: #f0ead6;
+}
+
+.input-container input {
+  border: 2px solid red;
+  padding: 10px;
+  width: 400px;
+}
+#form > h1 {
+  padding-top: 10px;
+}
+#form > button {
+  background-color: #4caf50;
+  border-radius: 40px;
+  width: 80px;
+  height: 35px;
+  float: right;
+  margin-right: 130px;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  color: white;
+}
+#form {
+  text-align: center;
+}
+.section_form {
+  background-color: white;
+  width: 50%;
+  padding-bottom: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: -10px;
+  margin-top: 15px;
+}
+
+#header {
+  background-color: red;
+  height: 40px;
+}
+#header > p {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.input-container > input {
+  border-radius: 40px 40px 40px 40px;
+  background-color: ghostwhite;
+}
+#reset {
+  color: blue;
+  margin-left: 30%;
+}
+#form > img {
+  float: right;
+  margin-right: 0px;
+  padding-top: 110px;
+}
+#form > h1 {
+  text-align: left;
+  margin-left: 20px;
+  font-size: medium;
+}
+.button {
+  background-color: #4caf50;
+  border-radius: 40px;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  color: white;
+  margin-left: 120px;
+}
+.bod > section {
+  color: white;
+  background-color: black;
+  padding-left: 10px;
+}
+.bod > section > a {
+  padding-left: 95%;
+  color: #4caf50;
+}
+
+.divide {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
+.divide > ul {
+  flex: 0.15;
+  background-color: wheat;
+  margin-top: 0;
+  border-radius: 10px 10px 10px 10px;
+}
+.divide > section {
+  flex: 0.7;
+  background-color: white;
+
+  border-radius: 40px 40px 40px 40px;
+  grid-auto-columns: auto;
+  grid-template-columns: repeat(autofit, minmax(100px, 1fr));
+}
+
+.divide > div {
+  flex: 0.15;
+  border-radius: 10px 10px 10px 10px;
+  background-color: ghostwhite;
+}
+.divide > section > form {
+  grid-template-columns: repeat(autofill, minmax(100px, 1fr));
+}
+.memo {
+  display: flex;
+}
+.memo > button {
+  background-color: #4caf50;
+  border-radius: 40px;
+  width: 80px;
+  height: 35px;
+  float: right;
+  margin-right: 130px;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  color: white;
+}
